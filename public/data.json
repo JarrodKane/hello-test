@@ -1,0 +1,147 @@
+{
+  "heroSection": {
+    "type": "hero",
+    "title": "Discover and Find Your Own Fashion!",
+    "subtitle": "Explore our curated collection of stylish clothing and accessories tailored to your unique taste.",
+    "linkButton": {
+      "text": "Explore Now",
+      "url": "path/to/explore",
+      "variant": "primary"
+    }
+  },
+  "bestSellingSection": {
+    "type": "productSection",
+    "title": "Best Selling",
+    "subtitle": "Get in on the trend with our curated selection of best-selling styles.",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Regular Fit Long Sleeve Top",
+        "price": "38.99",
+        "rating": 5,
+        "imageURL": "pexels-dima-valkov-6211621.png"
+      },
+      {
+        "id": 2,
+        "title": "Black Crop Tailored Jacket",
+        "price": "62.99",
+        "rating": 4.9,
+        "imageURL": "pexels-dima-valkov-6211616 (1).png"
+      },
+      {
+        "id": 3,
+        "title": "Textured Sunset Shirt",
+        "price": "49.99",
+        "rating": 5,
+        "imageURL": "pexels-dima-valkov-6503007.png"
+      }
+    ],
+    "linkButton": {
+      "text": "See all",
+      "url": "path/to/best-selling-products",
+      "variant": "outline",
+      "icon": "right-arrow",
+      "iconPosition": "right"
+    }
+  },
+  "featuredProductsSection": {
+    "type": "productSection",
+    "title": "Our Products",
+    "subtitle": "Get in on the trend with our curated selection of best-selling styles.",
+    "cards": [
+      {
+        "id": 4,
+        "title": "Spread Collar Shirt",
+        "price": "48.99",
+        "rating": 5,
+        "imageURL": "pexels-dima-valkov-6402848.png"
+      },
+      {
+        "id": 5,
+        "title": "White Solid Formal Shirt",
+        "price": "39.00",
+        "rating": 4.9,
+        "imageURL": "pexels-heitor-verdi-7665789.png"
+      },
+      {
+        "id": 6,
+        "title": "Shine On Me Blouse",
+        "price": "42.99",
+        "rating": 4.8,
+        "imageURL": "pexels-dima-valkov-6511777.png"
+      },
+      {
+        "id": 7,
+        "title": "Gray Solid Padded Jacket",
+        "price": "32.99",
+        "rating": 4.7,
+        "imageURL": "pexels-monstera-6311613 (1).png"
+      },
+      {
+        "id": 8,
+        "title": "Printed Loose T-shirt",
+        "price": "39.99",
+        "rating": 5,
+        "imageURL": "pexels-dima-valkov-6211614.png"
+      },
+      {
+        "id": 9,
+        "title": "Summer Wind Crop Shirt",
+        "price": "39.95",
+        "rating": 4.7,
+        "imageURL": "pexels-dima-valkov-6402846.png"
+      },
+      {
+        "id": 10,
+        "title": "Tailored Jacket",
+        "price": "46.00",
+        "rating": 4.9,
+        "imageURL": "pexels-dima-valkov-6211601.png"
+      },
+      {
+        "id": 11,
+        "title": "Solid Round Neck T-shirt",
+        "price": "36.00",
+        "rating": 5,
+        "imageURL": "pexels-monstera-6311612.png"
+      }
+    ]
+  },
+  "callSection": {
+    "type": "callToAction",
+    "imageURL": "excited-white-girl-bright-stylish-glasses-posing-pink-dreamy-curly-woman-playing-with-her-ginger-hair-laughing.png",
+    "title": "Exclusive offer",
+    "subtitle": "Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals",
+    "date": "2022-01-01",
+    "linkButton": {
+      "text": "BUY NOW",
+      "url": "path/to/buy-now",
+      "variant": "primary"
+    }
+  },
+  "designerClothesSection": {
+    "type": "productSection",
+    "title": "Designer Clothes for You",
+    "subtitle": "Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!",
+    "cards": [
+      {
+        "id": 12,
+        "title": "Accessories",
+        "desc": "Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats.",
+        "imageURL": "elegant-woman-straw-hat-isolated.png"
+      },
+      {
+        "id": 13,
+        "title": "Dresses",
+        "desc": "Explore a stunning range of designer dresses, including evening gowns and chic day dresses.",
+        "imageURL": "pexels-dima-valkov-6211617.png"
+      },
+      {
+        "id": 14,
+        "title": "Outerwear",
+        "desc": "Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons.",
+        "imageURL": "vknivfu sdkvbjieurg kjvn.png"
+      }
+    ]
+  }
+}
