@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         'brand-green-light': '#C2EFD4',
-        'brand-green-medium': '##267D49',
+        'brand-green-medium': '#267D49',
         'brand-green-dark': '#224F34',
         'brand-green-highlight': '#10FF70',
       },

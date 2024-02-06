@@ -1,14 +1,4 @@
-type FontSize =
-  | 'brand-xs'
-  | 'brand-sm'
-  | 'brand-base'
-  | 'brand-lg'
-  | 'brand-xl'
-  | 'brand-2xl'
-  | 'brand-3xl'
-  | 'brand-4xl'
-  | 'brand-5xl'
-  | 'brand-6xl';
+import { FontSize } from './index.ts';
 
 export interface TextStyle {
   content: string;

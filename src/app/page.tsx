@@ -1,3 +1,4 @@
+import Text from '@/app/components/atoms/text';
 import { Data } from './types/data';
 
 export default async function Home() {
@@ -18,6 +19,13 @@ export default async function Home() {
           <div>{value.type}</div>
         </div>
       ))}
+      <Text textColor='text-brand-green-medium' textSize='text-brand-xs'>
+        Testing
+      </Text>
+      <Text textColor='text-brand-green-light' textSize='text-brand-lg'>
+        Testing
+      </Text>
+      <Text className='text-brand-green-dark'>Testing</Text>
     </main>
   );
 }

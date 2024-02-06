@@ -3,21 +3,21 @@
     "type": "hero",
     "title": {
       "content": "Discover and Find Your Own Fashion!",
-      "font-size": "brand-6xl",
-      "color": "brand-green-dark",
+      "font-size": "text-brand-6xl",
+      "color": "text-brand-green-dark",
       "font": "Rufina",
       "font-style": "bold"
     },
     "subtitle": {
       "content": "Explore our curated collection of stylish clothing and accessories tailored to your unique taste.",
-      "font-size": "brand-lg",
-      "color": "brand-green-medium",
+      "font-size": "text-brand-lg",
+      "color": "text-brand-green-medium",
       "font": "Poppins",
       "font-style": "medium"
     },
     "linkButton": {
       "content": "Explore Now",
-      "font-size": "brand-sm",
+      "font-size": "text-brand-sm",
       "url": "path/to/explore",
       "variant": "primary",
       "font": "Poppins",
@@ -29,14 +29,14 @@
     "title": {
       "content": "Best Selling",
       "size": "5xl",
-      "color": "brand-green-dark",
+      "color": "text-brand-green-dark",
       "font": "Roboto Slab",
       "font-style": "medium"
     },
     "subtitle": {
       "content": "Get in on the trend with our curated selection of best-selling styles.",
-      "font-size": "brand-base",
-      "color": "brand-green-dark",
+      "font-size": "text-brand-base",
+      "color": "text-brand-green-dark",
       "font": "Poppins",
       "font-style": "medium"
     },
@@ -69,7 +69,7 @@
       "variant": "outline",
       "icon": "right-arrow",
       "iconPosition": "right",
-      "font-size": "brand-base",
+      "font-size": "text-brand-base",
       "font": "Poppins",
       "font-style": "medium"
     }
@@ -79,14 +79,14 @@
     "title": {
       "content": "Our Products",
       "size": "5xl",
-      "color": "brand-green-dark",
+      "color": "text-brand-green-dark",
       "font": "Roboto Slab",
       "font-style": "medium"
     },
     "subtitle": {
       "content": "Get in on the trend with our curated selection of best-selling styles.",
-      "font-size": "brand-base",
-      "color": "brand-green-dark",
+      "font-size": "text-brand-base",
+      "color": "text-brand-green-dark",
       "font": "Poppins",
       "font-style": "medium"
     },
@@ -154,15 +154,15 @@
     "imageURL": "excited-white-girl-bright-stylish-glasses-posing-pink-dreamy-curly-woman-playing-with-her-ginger-hair-laughing.png",
     "title": {
       "content": "Exclusive offer",
-      "font-size": "brand-3xl",
-      "color": "brand-green-dark",
+      "font-size": "text-brand-3xl",
+      "color": "text-brand-green-dark",
       "font": "Roboto Slab",
       "font-style": "bold"
     },
     "subtitle": {
       "content": "Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals",
-      "font-size": "brand-base",
-      "color": "brand-green-dark",
+      "font-size": "text-brand-base",
+      "color": "text-brand-green-dark",
       "font": "Poppins",
       "font-style": "medium"
     },
@@ -177,7 +177,7 @@
       "variant": "primary",
       "font": "Poppins",
       "font-style": "medium",
-      "font-size": "brand-sm"
+      "font-size": "text-brand-sm"
     }
   },
   "designerClothesSection": {
@@ -185,14 +185,14 @@
     "title": {
       "content": "Designer Clothes For You",
       "size": "4xl",
-      "color": "brand-green-dark",
+      "color": "text-brand-green-dark",
       "font": "Roboto Slab",
       "font-style": "medium"
     },
     "subtitle": {
       "content": "Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!",
-      "font-size": "brand-base",
-      "color": "brand-green-dark",
+      "font-size": "text-brand-base",
+      "color": "text-brand-green-dark",
       "font": "Poppins",
       "font-style": "medium"
     },
