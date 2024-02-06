@@ -1,4 +1,4 @@
-import { FontSize } from './index.ts';
+import { FontSize, LinkVariant } from './index.ts';
 
 export interface TextStyle {
   content: string;
@@ -12,7 +12,7 @@ export interface LinkButton {
   content: string;
   'font-size': FontSize;
   url?: string;
-  variant?: string;
+  variant?: LinkVariant;
   font: string;
   'font-style': string;
   icon?: string;

@@ -1,4 +1,4 @@
-export type ButtonVariant = 'primary' | 'outline';
+export type LinkVariant = 'primary' | 'outline' | 'link';
 
 export type FontSize =
   | 'text-brand-xs'

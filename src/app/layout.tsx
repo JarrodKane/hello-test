@@ -1,3 +1,4 @@
+import NavBar from '@/app/components/organism/navbar';
 import type { Metadata } from 'next';
 import { Inter, Poppins, Roboto_Slab, Rufina } from 'next/font/google';
 import './globals.css';
@@ -40,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={bodyStyles}>
+        <NavBar />
         <div className='min-w-screen-lg mx-auto'>{children}</div>
       </body>
     </html>
