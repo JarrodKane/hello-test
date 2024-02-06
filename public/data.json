@@ -1,18 +1,45 @@
 {
   "heroSection": {
     "type": "hero",
-    "title": "Discover and Find Your Own Fashion!",
-    "subtitle": "Explore our curated collection of stylish clothing and accessories tailored to your unique taste.",
+    "title": {
+      "content": "Discover and Find Your Own Fashion!",
+      "font-size": "brand-6xl",
+      "color": "brand-green-dark",
+      "font": "Rufina",
+      "font-style": "bold"
+    },
+    "subtitle": {
+      "content": "Explore our curated collection of stylish clothing and accessories tailored to your unique taste.",
+      "font-size": "brand-lg",
+      "color": "brand-green-medium",
+      "font": "Poppins",
+      "font-style": "medium"
+    },
     "linkButton": {
-      "text": "Explore Now",
+      "content": "Explore Now",
+      "font-size": "brand-sm",
       "url": "path/to/explore",
-      "variant": "primary"
+      "variant": "primary",
+      "font": "Poppins",
+      "font-style": "medium"
     }
   },
   "bestSellingSection": {
     "type": "productSection",
-    "title": "Best Selling",
-    "subtitle": "Get in on the trend with our curated selection of best-selling styles.",
+    "title": {
+      "content": "Best Selling",
+      "size": "5xl",
+      "color": "brand-green-dark",
+      "font": "Roboto Slab",
+      "font-style": "medium"
+    },
+    "subtitle": {
+      "content": "Get in on the trend with our curated selection of best-selling styles.",
+      "font-size": "brand-base",
+      "color": "brand-green-dark",
+      "font": "Poppins",
+      "font-style": "medium"
+    },
     "cards": [
       {
         "id": 1,
@@ -37,17 +64,32 @@
       }
     ],
     "linkButton": {
-      "text": "See all",
+      "content": "See all",
       "url": "path/to/best-selling-products",
       "variant": "outline",
       "icon": "right-arrow",
-      "iconPosition": "right"
+      "iconPosition": "right",
+      "font-size": "brand-base",
+      "font": "Poppins",
+      "font-style": "medium"
     }
   },
   "featuredProductsSection": {
     "type": "productSection",
-    "title": "Our Products",
-    "subtitle": "Get in on the trend with our curated selection of best-selling styles.",
+    "title": {
+      "content": "Our Products",
+      "size": "5xl",
+      "color": "brand-green-dark",
+      "font": "Roboto Slab",
+      "font-style": "medium"
+    },
+    "subtitle": {
+      "content": "Get in on the trend with our curated selection of best-selling styles.",
+      "font-size": "brand-base",
+      "color": "brand-green-dark",
+      "font": "Poppins",
+      "font-style": "medium"
+    },
     "cards": [
       {
         "id": 4,
@@ -110,19 +152,50 @@
   "callSection": {
     "type": "callToAction",
     "imageURL": "excited-white-girl-bright-stylish-glasses-posing-pink-dreamy-curly-woman-playing-with-her-ginger-hair-laughing.png",
-    "title": "Exclusive offer",
-    "subtitle": "Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals",
-    "date": "2022-01-01",
+    "title": {
+      "content": "Exclusive offer",
+      "font-size": "brand-3xl",
+      "color": "brand-green-dark",
+      "font": "Roboto Slab",
+      "font-style": "bold"
+    },
+    "subtitle": {
+      "content": "Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals",
+      "font-size": "brand-base",
+      "color": "brand-green-dark",
+      "font": "Poppins",
+      "font-style": "medium"
+    },
+    "expires": {
+      "show": true,
+      "date": "2022-01-01",
+      "time": "00:00:00"
+    },
     "linkButton": {
-      "text": "BUY NOW",
+      "content": "BUY NOW",
       "url": "path/to/buy-now",
-      "variant": "primary"
+      "variant": "primary",
+      "font": "Poppins",
+      "font-style": "medium",
+      "font-size": "brand-sm"
     }
   },
   "designerClothesSection": {
     "type": "productSection",
-    "title": "Designer Clothes for You",
-    "subtitle": "Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!",
+    "title": {
+      "content": "Designer Clothes For You",
+      "size": "4xl",
+      "color": "brand-green-dark",
+      "font": "Roboto Slab",
+      "font-style": "medium"
+    },
+    "subtitle": {
+      "content": "Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!",
+      "font-size": "brand-base",
+      "color": "brand-green-dark",
+      "font": "Poppins",
+      "font-style": "medium"
+    },
     "cards": [
       {
         "id": 12,
