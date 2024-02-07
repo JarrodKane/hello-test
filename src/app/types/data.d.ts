@@ -55,6 +55,8 @@ export interface HeroSection extends Omit<Section, 'cards' | 'expires'> {
   heroImage: ImageDetails;
 }
 
+export type SectionType = HeroSection | Section;
+
 export interface Data {
   heroSection: HeroSection;
   bestSellingSection: Section;

@@ -35,7 +35,7 @@
     "bgColor": "bg-white",
     "title": {
       "content": "Best Selling",
-      "size": "5xl",
+      "font-size": "text-brand-5xl",
       "color": "text-brand-green-dark",
       "font": "Roboto Slab",
       "font-style": "medium"
@@ -86,7 +86,7 @@
     "bgColor": "bg-white",
     "title": {
       "content": "Our Products",
-      "size": "5xl",
+      "font-size": "text-brand-5xl",
       "color": "text-brand-green-dark",
       "font": "Roboto Slab",
       "font-style": "medium"
@@ -194,7 +194,7 @@
     "bgColor": "bg-white",
     "title": {
       "content": "Designer Clothes For You",
-      "size": "4xl",
+      "font-size": "text-brand-4xl",
       "color": "text-brand-green-dark",
       "font": "Roboto Slab",
       "font-style": "medium"
