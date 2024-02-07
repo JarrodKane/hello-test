@@ -1,8 +1,8 @@
+import ImageBox from '@/app/components//atoms/imageBox';
 import Link from '@/app/components/atoms/link';
 import Text from '@/app/components/atoms/text';
 import { HeroSection } from '@/app/types/data';
 import clsx from 'clsx';
-import Image from 'next/image';
 import React from 'react';
 
 const HeroSection: React.FC<HeroSection> = ({
@@ -52,17 +52,15 @@ const HeroSection: React.FC<HeroSection> = ({
           </Link>
         )}
       </div>
-      <div className='w-1/2 flex justify-end'>
+      <div className='w-1/2 flex justify-end items-center  h-full '>
         {imageDetails && (
-          <div className='w-full max-w-[35.625rem] max-h-[717px] bg-brand-green-light rounded-tl-[141px] rounded-tr-[45px] rounded-bl-[82px] rounded-br-[150px]'>
-            <Image
-              src={`/img/${imageDetails.imageURL}`}
-              alt='Hero Image'
-              className='w-full'
-              width={imageDetails.width}
-              height={imageDetails.height}
+          <>
+            <ImageBox
+              image={imageDetails}
+              bgColor='brand-green-light'
+              className='rounded-tl-[141px] rounded-tr-[45px] rounded-bl-[82px] rounded-br-[150px] max-w-[35.625rem] max-h-[717px] '
             />
-          </div>
+          </>
         )}
       </div>
     </div>

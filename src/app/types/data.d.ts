@@ -45,12 +45,14 @@ export interface Section {
   expires?: Expires;
 }
 
+export type ImageDetails = {
+  imageURL: string;
+  width: number;
+  height: number;
+};
+
 export interface HeroSection extends Omit<Section, 'cards' | 'expires'> {
-  heroImage: {
-    imageURL: string;
-    width: number;
-    height: number;
-  };
+  heroImage: ImageDetails;
 }
 
 export interface Data {
