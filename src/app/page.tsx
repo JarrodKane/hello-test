@@ -1,5 +1,5 @@
-import Text from '@/app/components/atoms/text';
 import Section from './components/layouts/section';
+import Hero from './components/molecules/hero';
 import { Data } from './types/data';
 
 export default async function Home() {
@@ -15,21 +15,10 @@ export default async function Home() {
   return (
     <main>
       {dataArray.map(([key, value]) => (
-        <div key={key} className='bg-slate-500'>
-          <h2>{key}</h2>
-          <div>{value.type}</div>
-        </div>
+        <Section key={key} className={value.bgColor}>
+          {value.type === 'hero' ? <Hero {...value} /> : <div>Test</div>}
+        </Section>
       ))}
-      <Section className='bg-brand-green-dark'>
-        <Text textColor='text-brand-green-medium' textSize='text-brand-xs'>
-          Testing
-        </Text>
-      </Section>
-
-      <Text textColor='text-brand-green-light' textSize='text-brand-lg'>
-        Testing
-      </Text>
-      <Text className='text-brand-green-dark'>Testing</Text>
     </main>
   );
 }

@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <Section className='bg-brand-green-light'>
+    <Section className='bg-brand-green-lightest'>
       <nav className='flex items-center justify-between  flex-grow'>
         <Image
           src='/img/Rivo.png'

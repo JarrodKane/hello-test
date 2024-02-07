@@ -7,7 +7,10 @@ interface ContainerProps {
 }
 
 const Section: React.FC<ContainerProps> = ({ children, className }) => {
-  const sectionClasses = clsx('flex  items-center pt-8 px-16 pb-5', className);
+  const sectionClasses = clsx(
+    'flex  items-center  px-[174px] py-[4rem]',
+    className
+  );
 
   return <div className={sectionClasses}>{children}</div>;
 };

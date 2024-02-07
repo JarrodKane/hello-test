@@ -1,6 +1,7 @@
 {
   "heroSection": {
     "type": "hero",
+    "bgColor": "bg-brand-green-lightest",
     "title": {
       "content": "Discover and Find Your Own Fashion!",
       "font-size": "text-brand-6xl",
@@ -22,10 +23,16 @@
       "variant": "primary",
       "font": "Poppins",
       "font-style": "medium"
+    },
+    "heroImage": {
+      "imageURL": "pexels-dima-valkov-6402847 2.png",
+      "width": 570,
+      "height": 234
     }
   },
   "bestSellingSection": {
     "type": "productSection",
+    "bgColor": "bg-white",
     "title": {
       "content": "Best Selling",
       "size": "5xl",
@@ -76,6 +83,7 @@
   },
   "featuredProductsSection": {
     "type": "productSection",
+    "bgColor": "bg-white",
     "title": {
       "content": "Our Products",
       "size": "5xl",
@@ -151,6 +159,7 @@
   },
   "callSection": {
     "type": "callToAction",
+    "bgColor": "bg-brand-green-light",
     "imageURL": "excited-white-girl-bright-stylish-glasses-posing-pink-dreamy-curly-woman-playing-with-her-ginger-hair-laughing.png",
     "title": {
       "content": "Exclusive offer",
@@ -182,6 +191,7 @@
   },
   "designerClothesSection": {
     "type": "productSection",
+    "bgColor": "bg-white",
     "title": {
       "content": "Designer Clothes For You",
       "size": "4xl",

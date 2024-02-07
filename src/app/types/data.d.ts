@@ -36,6 +36,7 @@ export interface Expires {
 
 export interface Section {
   type: string;
+  bgColor: string;
   title: TextStyle;
   subtitle: TextStyle;
   linkButton?: LinkButton;
@@ -44,8 +45,16 @@ export interface Section {
   expires?: Expires;
 }
 
+export interface HeroSection extends Omit<Section, 'cards' | 'expires'> {
+  heroImage: {
+    imageURL: string;
+    width: number;
+    height: number;
+  };
+}
+
 export interface Data {
-  heroSection: Section;
+  heroSection: HeroSection;
   bestSellingSection: Section;
   featuredProductsSection: Section;
   callSection: Section;
