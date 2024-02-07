@@ -47,27 +47,40 @@
       "font": "Poppins",
       "font-style": "medium"
     },
+    "cols": 3,
     "cards": [
       {
         "id": 1,
         "title": "Regular Fit Long Sleeve Top",
         "price": "38.99",
         "rating": 5,
-        "imageURL": "pexels-dima-valkov-6211621.png"
+        "img": {
+          "imageURL": "pexels-dima-valkov-6211621.png",
+          "width": 430,
+          "height": 566
+        }
       },
       {
         "id": 2,
         "title": "Black Crop Tailored Jacket",
         "price": "62.99",
         "rating": 4.9,
-        "imageURL": "pexels-dima-valkov-6211616 (1).png"
+        "img": {
+          "imageURL": "pexels-dima-valkov-6211616 (1).png",
+          "width": 430,
+          "height": 566
+        }
       },
       {
         "id": 3,
         "title": "Textured Sunset Shirt",
         "price": "49.99",
         "rating": 5,
-        "imageURL": "pexels-dima-valkov-6503007.png"
+        "img": {
+          "imageURL": "pexels-dima-valkov-6503007.png",
+          "width": 430,
+          "height": 566
+        }
       }
     ],
     "linkButton": {
@@ -98,62 +111,96 @@
       "font": "Poppins",
       "font-style": "medium"
     },
+    "cols": 4,
     "cards": [
       {
         "id": 4,
         "title": "Spread Collar Shirt",
         "price": "48.99",
         "rating": 5,
-        "imageURL": "pexels-dima-valkov-6402848.png"
+        "img": {
+          "imageURL": "pexels-dima-valkov-6402848.png",
+          "width": 318,
+          "height": 378
+        }
       },
       {
         "id": 5,
         "title": "White Solid Formal Shirt",
         "price": "39.00",
         "rating": 4.9,
-        "imageURL": "pexels-heitor-verdi-7665789.png"
+        "img": {
+          "imageURL": "pexels-heitor-verdi-7665789.png",
+          "width": 318,
+          "height": 378
+        }
       },
       {
         "id": 6,
         "title": "Shine On Me Blouse",
         "price": "42.99",
         "rating": 4.8,
-        "imageURL": "pexels-dima-valkov-6511777.png"
+
+        "img": {
+          "imageURL": "pexels-dima-valkov-6511777.png",
+          "width": 318,
+          "height": 378
+        }
       },
       {
         "id": 7,
         "title": "Gray Solid Padded Jacket",
         "price": "32.99",
         "rating": 4.7,
-        "imageURL": "pexels-monstera-6311613 (1).png"
+        "img": {
+          "imageURL": "pexels-monstera-6311613 (1).png",
+          "width": 318,
+          "height": 378
+        }
       },
       {
         "id": 8,
         "title": "Printed Loose T-shirt",
         "price": "39.99",
         "rating": 5,
-        "imageURL": "pexels-dima-valkov-6211614.png"
+        "img": {
+          "imageURL": "pexels-dima-valkov-6211614.png",
+          "width": 318,
+          "height": 378
+        }
       },
       {
         "id": 9,
         "title": "Summer Wind Crop Shirt",
         "price": "39.95",
         "rating": 4.7,
-        "imageURL": "pexels-dima-valkov-6402846.png"
+        "img": {
+          "imageURL": "pexels-dima-valkov-6402846.png",
+          "width": 318,
+          "height": 378
+        }
       },
       {
         "id": 10,
         "title": "Tailored Jacket",
         "price": "46.00",
         "rating": 4.9,
-        "imageURL": "pexels-dima-valkov-6211601.png"
+        "img": {
+          "imageURL": "pexels-dima-valkov-6211601.png",
+          "width": 318,
+          "height": 378
+        }
       },
       {
         "id": 11,
         "title": "Solid Round Neck T-shirt",
         "price": "36.00",
         "rating": 5,
-        "imageURL": "pexels-monstera-6311612.png"
+        "img": {
+          "imageURL": "pexels-monstera-6311612.png",
+          "width": 318,
+          "height": 378
+        }
       }
     ]
   },
@@ -206,24 +253,37 @@
       "font": "Poppins",
       "font-style": "medium"
     },
+    "cols": 3,
     "cards": [
       {
         "id": 12,
         "title": "Accessories",
         "desc": "Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats.",
-        "imageURL": "elegant-woman-straw-hat-isolated.png"
+        "img": {
+          "imageURL": "elegant-woman-straw-hat-isolated.png",
+          "width": 430,
+          "height": 566
+        }
       },
       {
         "id": 13,
         "title": "Dresses",
         "desc": "Explore a stunning range of designer dresses, including evening gowns and chic day dresses.",
-        "imageURL": "pexels-dima-valkov-6211617.png"
+        "img": {
+          "imageURL": "pexels-dima-valkov-6211617.png",
+          "width": 430,
+          "height": 566
+        }
       },
       {
         "id": 14,
         "title": "Outerwear",
         "desc": "Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons.",
-        "imageURL": "vknivfu sdkvbjieurg kjvn.png"
+        "img": {
+          "imageURL": "vknivfu sdkvbjieurg kjvn.png",
+          "width": 430,
+          "height": 566
+        }
       }
     ]
   }

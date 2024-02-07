@@ -1,15 +1,15 @@
-import * as Content from '@/app/components/layouts/section';
+import * as Content from '@/components/layouts/section';
 import { extractClasses } from '@/utils/index';
-import Text from './components/atoms/text';
-import Hero from './components/molecules/hero';
+import Text from '../components/atoms/text';
+import Grid from '../components/layouts/grid';
+import Hero from '../components/molecules/hero';
+import ProductCard from '../components/molecules/productCard';
 import { Data, SectionType } from './types/data';
 
 const renderComponent = (section: SectionType) => {
   const { content: titleContent, classesString: titleClassesString } = extractClasses(section.title);
 
   const { content: subTitleContent, classesString: subTitleClassesString } = extractClasses(section.subtitle);
-
-  console.log(titleClassesString);
 
   switch (section.type) {
     case 'hero':
@@ -23,7 +23,13 @@ const renderComponent = (section: SectionType) => {
           <Text className={`${titleClassesString}`}>{titleContent}</Text>
           {subTitleContent && <Text className={subTitleClassesString}>{subTitleContent}</Text>}
           <Content.Body>
-            <div>Grid</div>
+            {'cards' in section && section.cards?.length && 'cols' in section ? (
+              <Grid cols={section.cols}>
+                {section.cards.map((card, index) => (
+                  <ProductCard key={index} card={card} />
+                ))}
+              </Grid>
+            ) : null}
           </Content.Body>
         </Content.Header>
       );

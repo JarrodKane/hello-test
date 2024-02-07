@@ -1,5 +1,5 @@
-import ShoppingCartIcon from '@/app/components/atoms/icons/shopping-cart';
 import { Icons } from '@/app/types/index';
+import ShoppingCartIcon from '@/components/atoms/icons/shopping-cart';
 
 // You could use this component to get custom SVGs as well as importing the names for icons from a icon library
 type IconComponentProps = {

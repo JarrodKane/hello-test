@@ -1,4 +1,4 @@
-import NavBar from '@/app/components/organism/navbar';
+import NavBar from '@/components/organism/navbar';
 import type { Metadata } from 'next';
 import { Inter, Poppins, Roboto_Slab, Rufina } from 'next/font/google';
 import './globals.css';

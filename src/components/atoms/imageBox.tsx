@@ -9,7 +9,7 @@ interface ImageBoxProps {
 }
 
 const ImageBox = ({ image, bgColor, className }: ImageBoxProps) => {
-  const boxClasses = clsx(className, `bg-${bgColor}`);
+  const boxClasses = clsx(className, `${bgColor} `);
 
   return (
     <div className={boxClasses}>

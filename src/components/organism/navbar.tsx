@@ -1,19 +1,13 @@
-import Icon from '@/app/components/atoms/icon';
-import Link from '@/app/components/atoms/link';
-import Section from '@/app/components/layouts/section/section';
+import Icon from '@/components/atoms/icon';
+import Link from '@/components/atoms/link';
+import Section from '@/components/layouts/section/section';
 import Image from 'next/image';
 
 const Navbar = () => {
   return (
     <Section className='bg-brand-green-lightest  pb-16'>
       <nav className='flex items-center justify-between flex-grow'>
-        <Image
-          src='/img/Rivo.png'
-          alt='Logo'
-          className='h-8 w-auto'
-          width={94}
-          height={49}
-        />
+        <Image src='/img/Rivo.png' alt='Logo' className='h-8 w-auto' width={94} height={49} />
         <div className='flex items-center space-x-[3.563rem] text-brand-base text-brand-green-dark'>
           <Link url='#' variant='link'>
             HOME

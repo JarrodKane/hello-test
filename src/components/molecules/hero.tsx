@@ -1,7 +1,7 @@
-import ImageBox from '@/app/components//atoms/imageBox';
-import Link from '@/app/components/atoms/link';
-import Text from '@/app/components/atoms/text';
 import { HeroSection } from '@/app/types/data';
+import ImageBox from '@/components/atoms/imageBox';
+import Link from '@/components/atoms/link';
+import Text from '@/components/atoms/text';
 import { extractClasses } from '@/utils/index';
 import clsx from 'clsx';
 import React from 'react';
@@ -36,11 +36,11 @@ const HeroSection: React.FC<HeroSection> = ({ title, subtitle, linkButton, heroI
           </Link>
         )}
       </div>
-      <div className='w-1/2 flex justify-end items-center h-full'>
+      <div className='w-1/2 flex justify-end items-center h-full '>
         {imageDetails && (
           <ImageBox
             image={imageDetails}
-            bgColor='brand-green-light'
+            bgColor='bg-brand-green-light'
             className='rounded-tl-[141px] rounded-tr-[45px] rounded-bl-[82px] rounded-br-[150px] max-w-[35.625rem] max-h-[717px] '
           />
         )}

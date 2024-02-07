@@ -8,6 +8,12 @@ export interface TextStyle {
   'font-style': string;
 }
 
+export type ImageDetails = {
+  imageURL: string;
+  width: number;
+  height: number;
+};
+
 export interface LinkButton {
   content: string;
   'font-size': FontSize;
@@ -24,7 +30,7 @@ export interface Card {
   title: string;
   price?: string;
   rating?: number;
-  imageURL?: string;
+  img?: ImageDetails;
   desc?: string;
 }
 
@@ -36,6 +42,7 @@ export interface Expires {
 
 export interface Section {
   type: string;
+  cols: number;
   bgColor: string;
   title: TextStyle;
   subtitle: TextStyle;
@@ -45,13 +52,7 @@ export interface Section {
   expires?: Expires;
 }
 
-export type ImageDetails = {
-  imageURL: string;
-  width: number;
-  height: number;
-};
-
-export interface HeroSection extends Omit<Section, 'cards' | 'expires'> {
+export interface HeroSection extends Omit<Section, 'cards' | 'expires' | 'cols'> {
   heroImage: ImageDetails;
 }
 
