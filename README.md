@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Issues
+
+I had issues trying to make dynamic tailwind classes that would take in the input from the data. I overcomplicated it at first, so took a step back to just create the MVP first before delving into what's going on when I have time.
+
 ## Getting Started
 
 First, run the development server:

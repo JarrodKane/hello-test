@@ -14,6 +14,9 @@ const config: Config = {
         'brand-green-dark': '#224F34',
         'brand-green-highlight': '#10FF70',
       },
+      borderRadius: {
+        'brand-link': '0.1875rem',
+      },
       fontSize: {
         'brand-xs': '16px',
         'brand-sm': '20px',

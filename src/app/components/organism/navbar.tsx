@@ -1,3 +1,4 @@
+import Icon from '@/app/components/atoms/icon';
 import Link from '@/app/components/atoms/link';
 import Section from '@/app/components/layouts/section';
 import Image from 'next/image';
@@ -13,22 +14,22 @@ const Navbar = () => {
           width={94}
           height={49}
         />
-        <div className='flex items-center space-x-4 text-brand-base'>
-          <Link url='#' className='text-brand-green-dark' variant='link'>
+        <div className='flex items-center space-x-4 text-brand-base text-brand-green-dark'>
+          <Link url='#' variant='link'>
             HOME
           </Link>
-          <Link url='#' className='text-brand-green-dark' variant='outline'>
+          <Link url='#' variant='link'>
             SHOP
           </Link>
-          <Link url='#' className='text-brand-green-dark' variant='primary'>
+          <Link url='#' variant='link'>
             FEATURES
           </Link>
-          <Link url='#' className='text-brand-green-dark' variant='primary'>
+          <Link url='#' variant='link'>
             CONTACT
           </Link>
         </div>
         <div className='flex space-x-4  items-center'>
-          <div>ICON</div>
+          <Icon type='shopping-bag' state='active' />
           <Link url='#' variant='outline'>
             LOGIN
           </Link>

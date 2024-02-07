@@ -21,3 +21,5 @@ export type BrandColor =
 export type Fonts = 'roboto-slab' | 'poppins' | 'rufina';
 
 export type FontStyle = 'normal' | 'italic' | 'bold';
+
+export type Icons = 'arrow' | 'shopping-bag';
