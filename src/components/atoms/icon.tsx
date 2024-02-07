@@ -1,5 +1,9 @@
 import { Icons } from '@/app/types/index';
 import ShoppingCartIcon from '@/components/atoms/icons/shopping-cart';
+// import { ReactComponent as YourSvg } from './fi-ss-star';
+import Image from 'next/image';
+import Arrow from '/public/arrow.svg';
+import Star from '/public/fi-ss-star.svg';
 
 // You could use this component to get custom SVGs as well as importing the names for icons from a icon library
 type IconComponentProps = {
@@ -13,7 +17,9 @@ const IconComponent = ({ type, state }: IconComponentProps) => {
     case 'shopping-bag':
       return <ShoppingCartIcon active={!!state} />;
     case 'arrow':
-      return <div>Arrow</div>;
+      return <Image src={Arrow} alt={'Arrow icon facing right'} />;
+    case 'star':
+      return <Image src={Star} alt={'Gold star icon'} />;
     default:
       return null; // Or render a fallback icon for unknown types
   }

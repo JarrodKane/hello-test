@@ -26,7 +26,7 @@ const HeroSection: React.FC<HeroSection> = ({ title, subtitle, linkButton, heroI
     imageDetails = heroImage;
   }
   return (
-    <div className='flex '>
+    <div className='flex pb-20'>
       <div className='w-1/2 flex flex-col  space-y-[2.688rem]'>
         <Text className={`${titleClassesString} pt-[1.375rem]`}>{titleContent}</Text>
         <Text className={`${subTitleClassesString} w-4/6`}>{subTitleContent}</Text>

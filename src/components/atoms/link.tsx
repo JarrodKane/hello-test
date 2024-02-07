@@ -7,7 +7,7 @@ interface LinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
   children: ReactNode;
   className?: string;
   url: string;
-  variant: LinkVariant;
+  variant?: LinkVariant;
 }
 
 const defaultClass = 'text-brand-sm w-fit ';
@@ -20,13 +20,7 @@ const primaryClass = `text-white bg-brand-green-dark py-4 px-14${roundedPxPyClas
 const linkClass = 'hover:text-brand-green-medium'; // We could leave this class blank but it's here for clarity
 const outlineClass = `border-2 border-brand-green-dark ${roundedPxPyClass}`;
 
-export default function Text({
-  className,
-  url,
-  variant,
-  children,
-  ...rest
-}: LinkProps) {
+export default function Text({ className, url, variant = 'primary', children, ...rest }: LinkProps) {
   const linkClasses = clsx(defaultClass, className, {
     [primaryClass]: variant === 'primary',
     [linkClass]: variant === 'link',

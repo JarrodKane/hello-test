@@ -17,7 +17,7 @@ export type ImageDetails = {
 export interface LinkButton {
   content: string;
   'font-size': FontSize;
-  url?: string;
+  url: string;
   variant?: LinkVariant;
   font: string;
   'font-style': string;
@@ -28,9 +28,9 @@ export interface LinkButton {
 export interface Card {
   id: number;
   title: string;
+  img: ImageDetails;
   price?: string;
   rating?: number;
-  img?: ImageDetails;
   desc?: string;
 }
 

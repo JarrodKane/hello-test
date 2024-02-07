@@ -1,3 +1,5 @@
+import Icon from '@/components/atoms/icon';
+import Link from '@/components/atoms/link';
 import * as Content from '@/components/layouts/section';
 import { extractClasses } from '@/utils/index';
 import Text from '../components/atoms/text';
@@ -19,10 +21,12 @@ const renderComponent = (section: SectionType) => {
       break;
     case 'productSection':
       return (
-        <Content.Header>
-          <Text className={`${titleClassesString}`}>{titleContent}</Text>
-          {subTitleContent && <Text className={subTitleClassesString}>{subTitleContent}</Text>}
-          <Content.Body>
+        <>
+          <Content.Header>
+            <Text className={`${titleClassesString}`}>{titleContent}</Text>
+            {subTitleContent && <Text className={subTitleClassesString}>{subTitleContent}</Text>}
+          </Content.Header>
+          <Content.Body className='flex gap-16'>
             {'cards' in section && section.cards?.length && 'cols' in section ? (
               <Grid cols={section.cols}>
                 {section.cards.map((card, index) => (
@@ -30,8 +34,13 @@ const renderComponent = (section: SectionType) => {
                 ))}
               </Grid>
             ) : null}
+            {'linkButton' in section && section.linkButton ? (
+              <Link url={section.linkButton.url} variant={section.linkButton.variant} className='flex gap-3'>
+                {section.linkButton.content} <Icon type='arrow' />
+              </Link>
+            ) : null}
           </Content.Body>
-        </Content.Header>
+        </>
       );
 
     default:
