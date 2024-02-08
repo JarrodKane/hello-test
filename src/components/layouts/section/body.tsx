@@ -7,7 +7,7 @@ type BodyProps = {
 };
 
 const Body: React.FC<BodyProps> = ({ children, className }) => {
-  const bodyClasses = clsx('flex flex-col items-center w-full', className);
+  const bodyClasses = clsx('flex flex-col w-full', className);
 
   return <div className={bodyClasses}>{children}</div>;
 };

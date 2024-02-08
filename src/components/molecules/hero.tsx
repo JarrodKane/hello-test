@@ -37,16 +37,18 @@ const HeroSection: React.FC<HeroSection> = ({ title, subtitle, linkButton, heroI
         )}
       </div>
       <div className='w-1/2 flex justify-end items-center h-full '>
-        {imageDetails && (
-          <ImageBox
-            image={imageDetails}
-            bgColor='bg-brand-green-light'
-            className='rounded-tl-[141px] rounded-tr-[45px] rounded-bl-[82px] rounded-br-[150px] max-w-[35.625rem] max-h-[717px] '
-          />
-        )}
+        {imageDetails && <ImageBox image={imageDetails} />}
       </div>
     </div>
   );
 };
 
 export default HeroSection;
+
+// Originally I wanted to take the png of the woman with a transparent bg and place it in, with a changing div, as well as placing the two svg's on top of the image, but I decided to just do the image for now
+// "imageURL": "pexels-dima-valkov-6402847 2.png",
+// <ImageBox
+//   image={imageDetails}
+//   bgColor='bg-brand-green-light'
+//   className='rounded-tl-[141px] rounded-tr-[45px] rounded-bl-[82px] rounded-br-[150px] max-w-[35.625rem] max-h-[717px] '
+// />

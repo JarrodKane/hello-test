@@ -1,52 +1,5 @@
-import Icon from '@/components/atoms/icon';
-import Link from '@/components/atoms/link';
-import * as Content from '@/components/layouts/section';
-import { extractClasses } from '@/utils/index';
-import Text from '../components/atoms/text';
-import Grid from '../components/layouts/grid';
-import Hero from '../components/molecules/hero';
-import ProductCard from '../components/molecules/productCard';
-import { Data, SectionType } from './types/data';
-
-const renderComponent = (section: SectionType) => {
-  const { content: titleContent, classesString: titleClassesString } = extractClasses(section.title);
-
-  const { content: subTitleContent, classesString: subTitleClassesString } = extractClasses(section.subtitle);
-
-  switch (section.type) {
-    case 'hero':
-      if ('heroImage' in section) {
-        return <Hero {...section} />;
-      }
-      break;
-    case 'productSection':
-      return (
-        <>
-          <Content.Header>
-            <Text className={`${titleClassesString}`}>{titleContent}</Text>
-            {subTitleContent && <Text className={subTitleClassesString}>{subTitleContent}</Text>}
-          </Content.Header>
-          <Content.Body className='flex gap-16'>
-            {'cards' in section && section.cards?.length && 'cols' in section ? (
-              <Grid cols={section.cols}>
-                {section.cards.map((card, index) => (
-                  <ProductCard key={index} card={card} />
-                ))}
-              </Grid>
-            ) : null}
-            {'linkButton' in section && section.linkButton ? (
-              <Link url={section.linkButton.url} variant={section.linkButton.variant} className='flex gap-3'>
-                {section.linkButton.content} <Icon type='arrow' />
-              </Link>
-            ) : null}
-          </Content.Body>
-        </>
-      );
-
-    default:
-      return <div>Test</div>;
-  }
-};
+import { renderComponent } from '@/components/organism/renderComponent';
+import { Data } from './types/data';
 
 export default async function Home() {
   const data = await getData();
@@ -58,15 +11,7 @@ export default async function Home() {
 
   const dataArray = Object.entries(data);
 
-  return (
-    <main>
-      {dataArray.map(([key, value]) => (
-        <Content.Section key={key} className={value.bgColor}>
-          {renderComponent(value)}
-        </Content.Section>
-      ))}
-    </main>
-  );
+  return <main>{dataArray.map(([key, value]) => renderComponent(value))}</main>;
 }
 
 export async function getData() {

@@ -25,7 +25,7 @@
       "font-style": "medium"
     },
     "heroImage": {
-      "imageURL": "pexels-dima-valkov-6402847 2.png",
+      "imageURL": "heroImage.png",
       "width": 570,
       "height": 234
     }
@@ -206,8 +206,12 @@
   },
   "callSection": {
     "type": "callToAction",
-    "bgColor": "bg-brand-green-light",
-    "imageURL": "excited-white-girl-bright-stylish-glasses-posing-pink-dreamy-curly-woman-playing-with-her-ginger-hair-laughing.png",
+    "bgColor": "bg-brand-green-lightest",
+    "img": {
+      "imageURL": "call.png",
+      "width": 522,
+      "height": 596
+    },
     "title": {
       "content": "Exclusive offer",
       "font-size": "text-brand-3xl",
@@ -224,8 +228,8 @@
     },
     "expires": {
       "show": true,
-      "date": "2022-01-01",
-      "time": "00:00:00"
+      "date": "2024-02-20",
+      "time": "12:34:56"
     },
     "linkButton": {
       "content": "BUY NOW",

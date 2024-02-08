@@ -48,11 +48,11 @@ export interface Section {
   subtitle: TextStyle;
   linkButton?: LinkButton;
   cards?: Card[];
-  imageURL?: string;
+  img?: ImageDetails;
   expires?: Expires;
 }
 
-export interface HeroSection extends Omit<Section, 'cards' | 'expires' | 'cols'> {
+export interface HeroSection extends Omit<Section, 'cards' | 'expires' | 'cols' | 'img'> {
   heroImage: ImageDetails;
 }
 

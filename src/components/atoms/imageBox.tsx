@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 interface ImageBoxProps {
   image: ImageDetails;
-  bgColor: string;
+  bgColor?: string;
   className?: string;
 }
 
