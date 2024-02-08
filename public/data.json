@@ -6,14 +6,14 @@
       "content": "Discover and Find Your Own Fashion!",
       "font-size": "text-brand-6xl",
       "color": "text-brand-green-dark",
-      "font": "Rufina",
+      "font": "font-rufina",
       "font-style": "bold"
     },
     "subtitle": {
       "content": "Explore our curated collection of stylish clothing and accessories tailored to your unique taste.",
       "font-size": "text-brand-lg",
       "color": "text-brand-green-medium",
-      "font": "Poppins",
+      "font": "font-poppins",
       "font-style": "medium"
     },
     "linkButton": {
@@ -21,7 +21,7 @@
       "font-size": "text-brand-sm",
       "url": "path/to/explore",
       "variant": "primary",
-      "font": "Poppins",
+      "font": "font-poppins",
       "font-style": "medium"
     },
     "heroImage": {
@@ -37,21 +37,26 @@
       "content": "Best Selling",
       "font-size": "text-brand-5xl",
       "color": "text-brand-green-dark",
-      "font": "Roboto Slab",
+      "font": "font-roboto-slab",
       "font-style": "medium"
     },
     "subtitle": {
       "content": "Get in on the trend with our curated selection of best-selling styles.",
       "font-size": "text-brand-base",
       "color": "text-brand-green-dark",
-      "font": "Poppins",
+      "font": "font-poppins",
       "font-style": "medium"
     },
     "cols": 3,
     "cards": [
       {
         "id": 1,
-        "title": "Regular Fit Long Sleeve Top",
+        "title": {
+          "content": "Regular Fit Long Sleeve Top",
+          "font-size": "text-brand-base",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "price": "38.99",
         "rating": 5,
         "img": {
@@ -62,7 +67,12 @@
       },
       {
         "id": 2,
-        "title": "Black Crop Tailored Jacket",
+        "title": {
+          "content": "Black Crop Tailored Jacket",
+          "font-size": "text-brand-base",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "price": "62.99",
         "rating": 4.9,
         "img": {
@@ -73,7 +83,12 @@
       },
       {
         "id": 3,
-        "title": "Textured Sunset Shirt",
+        "title": {
+          "content": "Textured Sunset Shirt",
+          "font-size": "text-brand-base",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "price": "49.99",
         "rating": 5,
         "img": {
@@ -90,7 +105,7 @@
       "icon": "right-arrow",
       "iconPosition": "right",
       "font-size": "text-brand-base",
-      "font": "Poppins",
+      "font": "font-poppins",
       "font-style": "medium"
     }
   },
@@ -101,21 +116,26 @@
       "content": "Our Products",
       "font-size": "text-brand-5xl",
       "color": "text-brand-green-dark",
-      "font": "Roboto Slab",
+      "font": "font-roboto-slab",
       "font-style": "medium"
     },
     "subtitle": {
       "content": "Get in on the trend with our curated selection of best-selling styles.",
       "font-size": "text-brand-base",
       "color": "text-brand-green-dark",
-      "font": "Poppins",
+      "font": "font-poppins",
       "font-style": "medium"
     },
     "cols": 4,
     "cards": [
       {
         "id": 4,
-        "title": "Spread Collar Shirt",
+        "title": {
+          "content": "Spread Collar Shirt",
+          "font-size": "text-brand-base",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "price": "48.99",
         "rating": 5,
         "img": {
@@ -126,7 +146,12 @@
       },
       {
         "id": 5,
-        "title": "White Solid Formal Shirt",
+        "title": {
+          "content": "White Solid Formal Shirt",
+          "font-size": "text-brand-base",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "price": "39.00",
         "rating": 4.9,
         "img": {
@@ -137,7 +162,12 @@
       },
       {
         "id": 6,
-        "title": "Shine On Me Blouse",
+        "title": {
+          "content": "Shine On Me Blouse",
+          "font-size": "text-brand-base",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "price": "42.99",
         "rating": 4.8,
 
@@ -149,7 +179,12 @@
       },
       {
         "id": 7,
-        "title": "Gray Solid Padded Jacket",
+        "title": {
+          "content": "Gray Solid Padded Jacket",
+          "font-size": "text-brand-base",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "price": "32.99",
         "rating": 4.7,
         "img": {
@@ -160,7 +195,12 @@
       },
       {
         "id": 8,
-        "title": "Printed Loose T-shirt",
+        "title": {
+          "content": "Printed Loose T-shirt",
+          "font-size": "text-brand-base",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "price": "39.99",
         "rating": 5,
         "img": {
@@ -171,7 +211,12 @@
       },
       {
         "id": 9,
-        "title": "Summer Wind Crop Shirt",
+        "title": {
+          "content": "Summer Wind Crop Shirt",
+          "font-size": "text-brand-base",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "price": "39.95",
         "rating": 4.7,
         "img": {
@@ -182,7 +227,12 @@
       },
       {
         "id": 10,
-        "title": "Tailored Jacket",
+        "title": {
+          "content": "Tailored Jacket",
+          "font-size": "text-brand-base",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "price": "46.00",
         "rating": 4.9,
         "img": {
@@ -193,7 +243,12 @@
       },
       {
         "id": 11,
-        "title": "Solid Round Neck T-shirt",
+        "title": {
+          "content": "Solid Round Neck T-shirt",
+          "font-size": "text-brand-base",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "price": "36.00",
         "rating": 5,
         "img": {
@@ -216,14 +271,14 @@
       "content": "Exclusive offer",
       "font-size": "text-brand-3xl",
       "color": "text-brand-green-dark",
-      "font": "Roboto Slab",
+      "font": "font-roboto-slab",
       "font-style": "bold"
     },
     "subtitle": {
       "content": "Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals",
       "font-size": "text-brand-base",
       "color": "text-brand-green-dark",
-      "font": "Poppins",
+      "font": "font-poppins",
       "font-style": "medium"
     },
     "expires": {
@@ -235,7 +290,7 @@
       "content": "BUY NOW",
       "url": "path/to/buy-now",
       "variant": "primary",
-      "font": "Poppins",
+      "font": "font-poppins",
       "font-style": "medium",
       "font-size": "text-brand-sm"
     }
@@ -247,21 +302,26 @@
       "content": "Designer Clothes For You",
       "font-size": "text-brand-4xl",
       "color": "text-brand-green-dark",
-      "font": "Roboto Slab",
+      "font": "font-roboto-slab",
       "font-style": "medium"
     },
     "subtitle": {
       "content": "Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!",
       "font-size": "text-brand-base",
       "color": "text-brand-green-dark",
-      "font": "Poppins",
+      "font": "font-poppins",
       "font-style": "medium"
     },
     "cols": 3,
     "cards": [
       {
         "id": 12,
-        "title": "Accessories",
+        "title": {
+          "content": "Accessories",
+          "font-size": "text-brand-xl",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "desc": "Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats.",
         "img": {
           "imageURL": "elegant-woman-straw-hat-isolated.png",
@@ -271,7 +331,12 @@
       },
       {
         "id": 13,
-        "title": "Dresses",
+        "title": {
+          "content": "Dresses",
+          "font-size": "text-brand-xl",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "desc": "Explore a stunning range of designer dresses, including evening gowns and chic day dresses.",
         "img": {
           "imageURL": "pexels-dima-valkov-6211617.png",
@@ -281,7 +346,12 @@
       },
       {
         "id": 14,
-        "title": "Outerwear",
+        "title": {
+          "content": "Outerwear",
+          "font-size": "text-brand-xl",
+          "font": "font-poppins",
+          "font-style": "SemiBold"
+        },
         "desc": "Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons.",
         "img": {
           "imageURL": "vknivfu sdkvbjieurg kjvn.png",

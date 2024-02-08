@@ -12,7 +12,7 @@ import Image from 'next/image';
 
 // This component holds all the logic for the section content that we get from the data.json file
 
-export const renderComponent = (section: SectionType) => {
+export const renderComponent = ({ key, section }: { key: string; section: SectionType }) => {
   const { content: titleContent, classesString: titleClassesString } = extractClasses(section.title);
 
   const { content: subTitleContent, classesString: subTitleClassesString } = extractClasses(section.subtitle);
@@ -21,7 +21,7 @@ export const renderComponent = (section: SectionType) => {
     case 'hero':
       if ('heroImage' in section) {
         return (
-          <Content.Section className={section?.bgColor}>
+          <Content.Section className={section?.bgColor} key={key}>
             <Hero {...section} />
           </Content.Section>
         );
@@ -29,7 +29,7 @@ export const renderComponent = (section: SectionType) => {
       break;
     case 'productSection':
       return (
-        <Content.Section className={section?.bgColor}>
+        <Content.Section className={section?.bgColor} key={key}>
           <Content.Header className='items-center'>
             <Text className={`${titleClassesString}`}>{titleContent}</Text>
             {subTitleContent && <Text className={subTitleClassesString}>{subTitleContent}</Text>}
@@ -56,7 +56,7 @@ export const renderComponent = (section: SectionType) => {
       );
     case 'callToAction':
       return (
-        <Content.Section>
+        <Content.Section key={key}>
           <div className={`${section?.bgColor} w-full flex rounded`}>
             <div className='w-4/5 flex'>
               {'img' in section && section.img ? (
@@ -92,9 +92,3 @@ export const renderComponent = (section: SectionType) => {
       return <></>;
   }
 };
-
-// "expires": {
-//   "show": true,
-//   "date": "2022-01-01",
-//   "time": "00:00:00"
-// },

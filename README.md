@@ -1,5 +1,25 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Overview
+
+Built out the basic webpage.
+The data.json holds all of the data and it's called on the one page.
+I wanted to keep using the app router, even though I'm only using one page.
+I made some assumptions for the data that some data would always be there, in improvements I would add in some type safety to make sure that the data is there.
+
+The data is then mapped over, and put through a render component, that then will grab either special components or create a generic one by using compound components.
+Not all of the dynamic data and styles have been applied yet from the design. Weighting of texts, etc...
+
+## What I would do next
+
+- Clean up of components
+- Add in the rest of the dynamic data and styles
+- reduce complexity with some of the components
+- Consistency between styling and components - To reduce down on arbitrary values from a user
+- Improve types
+- Improve type safety
+- tests
+
 ## Issues
 
 I had issues trying to make dynamic tailwind classes that would take in the input from the data. I overcomplicated it at first, so took a step back to just create the MVP first before delving into what's going on when I have time.

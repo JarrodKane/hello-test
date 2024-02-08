@@ -9,6 +9,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'roboto-slab': ['var(--font-roboto-slab)', 'serif'],
+        poppins: ['var(--font-poppins)', 'serif'],
+        rufina: ['var(--font-rufina)', 'serif'],
+        sans: ['Inter', 'sans-serif'],
+      },
       colors: {
         'brand-green-lightest': '#C2EFD4',
         'brand-green-light': '#6BC785',

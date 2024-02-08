@@ -8,6 +8,10 @@ interface ImageBoxProps {
   className?: string;
 }
 
+// This component was going to be used when I was going to use transparent people images.
+// I decided to go with a different approach and use the image directly
+// This component could be used with transparent images, as well as allowing the user to dynamically change the background color
+
 const ImageBox = ({ image, bgColor, className }: ImageBoxProps) => {
   const boxClasses = clsx(className, `${bgColor} `);
 

@@ -27,7 +27,7 @@ export interface LinkButton {
 
 export interface Card {
   id: number;
-  title: string;
+  title: TextStyle;
   img: ImageDetails;
   price?: string;
   rating?: number;

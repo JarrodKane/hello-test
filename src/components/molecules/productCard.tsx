@@ -2,6 +2,7 @@ import { Card } from '@/app/types/data';
 import Currency from '@/components/atoms/currency';
 import Icon from '@/components/atoms/icon';
 import Text from '@/components/atoms/text';
+import { extractClasses } from '@/utils/index';
 import { clsx } from 'clsx';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -12,8 +13,11 @@ type ProductCardProps = {
   variant?: string;
 };
 
+// Variant is not used in this component, but it could be used to change the layout of the card and to disable stuff like the rating and price
+
 const ProductCard = ({ card, className }: ProductCardProps) => {
   const cardClasses = clsx('card flex flex-col gap-y-10 ', className);
+  const { content: titleContent, classesString: titleClassesString } = extractClasses(card.title);
 
   return (
     <div className={cardClasses}>
@@ -27,8 +31,8 @@ const ProductCard = ({ card, className }: ProductCardProps) => {
         />
       </Link>
       <div className='flex flex-col items-center w-auto'>
-        <Text className='text-brand-base'>{card.title}</Text>
-        <p>{card.desc}</p>
+        <Text className={titleClassesString}>{titleContent}</Text>
+        <Text className='text-brand-base text-center'>{card.desc}</Text>
         {card.price && (
           <div className='flex text-brand-base'>
             <Currency value={Number(card.price)} />

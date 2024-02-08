@@ -11,7 +11,7 @@ export default async function Home() {
 
   const dataArray = Object.entries(data);
 
-  return <main>{dataArray.map(([key, value]) => renderComponent(value))}</main>;
+  return <main>{dataArray.map(([key, section]) => renderComponent({ key, section }))}</main>;
 }
 
 export async function getData() {

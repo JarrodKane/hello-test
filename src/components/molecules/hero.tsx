@@ -6,6 +6,10 @@ import { extractClasses } from '@/utils/index';
 import clsx from 'clsx';
 import React from 'react';
 
+// This component is rather custom and not all that flexible.
+// Depending on the project and designs, I would likely refactor this to be more flexible and dynamic
+// but I felt for this one it made sense for now to leave it as a custom component
+
 const HeroSection: React.FC<HeroSection> = ({ title, subtitle, linkButton, heroImage }) => {
   const { content: titleContent, classesString: titleClassesString } = extractClasses(title);
   const { content: subTitleContent, classesString: subTitleClassesString } = extractClasses(subtitle);
