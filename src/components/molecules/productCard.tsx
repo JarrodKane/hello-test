@@ -37,10 +37,12 @@ const ProductCard = ({ card, className }: ProductCardProps) => {
           <div className='flex text-brand-base'>
             <Currency value={Number(card.price)} />
             <span className='mx-10'>|</span>
-            <Text className='flex gap-2'>
-              {card.rating}
-              <Icon type='star' />
-            </Text>
+            {card.rating && (
+              <Text className='flex gap-2'>
+                {card.rating.toFixed(1)}
+                <Icon type='star' />
+              </Text>
+            )}
           </div>
         )}
       </div>
