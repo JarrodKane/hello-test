@@ -10,6 +10,8 @@ I made some assumptions for the data that some data would always be there, in im
 The data is then mapped over, and put through a render component, that then will grab either special components or create a generic one by using compound components.
 Not all of the dynamic data and styles have been applied yet from the design. Weighting of texts, etc...
 
+One of the main things I like to do is keep it consistent and resuse components. With the designs since bits were just a little different here and there. I tried to keep it consistent as I could while also allowing for custom designs. Adding in the custom brand colors and sizes helped get closer to what were in the designs.
+
 ## What I would do next
 
 - Clean up of components
