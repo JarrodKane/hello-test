@@ -14,7 +14,7 @@ const Grid: React.FC<GridProps> = ({ cols, children, className }) => {
     3: 'grid-cols-3',
     4: 'grid-cols-4',
   };
-  const gridClasses = clsx(`grid w-full ${colVariables[cols]} gap-4 gap-y-20  justify-items-center`, className);
+  const gridClasses = clsx(`grid w-full   ${colVariables[cols]} gap-10 gap-y-20 `, className);
   return <div className={gridClasses}>{children}</div>;
 };
 
