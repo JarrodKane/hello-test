@@ -6,7 +6,10 @@ export default async function Home() {
 
   if (!data) {
     //  TODO - handle error
-    return <div>Loading...</div>;
+    // The fonts are not loading in when I first run the app
+    // If I directly call them here they work right away first time
+    // This is a hack that needs to be fixed
+    return <div className={`font-rufina font-poppins font-sans font-roboto-slab`}>Loading...</div>;
   }
 
   const dataArray = Object.entries(data);
